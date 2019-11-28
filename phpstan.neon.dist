@@ -1,3 +1,6 @@
+includes:
+    - phpstan-baseline.neon
+
 parameters:
     level: 0
 
@@ -6,6 +9,7 @@ parameters:
 
     excludes_analyse:
         - tests/bootstrap.php
+        - src/Resources/skeleton/
 
     autoload_files:
         - vendor/autoload.php
